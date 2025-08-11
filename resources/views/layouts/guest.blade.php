@@ -311,7 +311,7 @@
                     </form>
                 </div>
                 <div class="sidebar-widget about-widget">
-                    <img src="upload/others/ab.jpg" alt="">
+                    <img src="{{ asset('assets/upload/others/ab.jpg') }}" alt="">
                     <h2>About The Photofolio</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus
                         pellentesque mattis. </p>
@@ -328,13 +328,13 @@
                 <div class="sidebar-widget instagram-widget">
                     <h2>Instagram gallery</h2>
                     <ul class="instagram-list">
-                        <li><a href="#"><img src="upload/instagram/1.jpg" alt=""></a></li>
-                        <li><a href="#"><img src="upload/instagram/2.jpg" alt=""></a></li>
-                        <li><a href="#"><img src="upload/instagram/3.jpg" alt=""></a></li>
-                        <li><a href="#"><img src="upload/instagram/4.jpg" alt=""></a></li>
-                        <li><a href="#"><img src="upload/instagram/5.jpg" alt=""></a></li>
-                        <li><a href="#"><img src="upload/instagram/6.jpg" alt=""></a></li>
-                    </ul>
+                        <li><a href="#"><img src="{{ asset('assets/upload/instagram/1.jpg') }}" alt=""></a></li>
+                        <li><a href="#"><img src="{{ asset('assets/upload/instagram/2.jpg') }}" alt=""></a></li>
+                        <li><a href="#"><img src="{{ asset('assets/upload/instagram/3.jpg') }}" alt=""></a></li>
+                        <li><a href="#"><img src="{{ asset('assets/upload/instagram/4.jpg') }}" alt=""></a></li>
+                        <li><a href="#"><img src="{{ asset('assets/upload/instagram/5.jpg') }}" alt=""></a></li>
+                        <li><a href="#"><img src="{{ asset('assets/upload/instagram/6.jpg') }}" alt=""></a></li>
+                    </ul>assets/
                 </div>
             </div>
         </div>
