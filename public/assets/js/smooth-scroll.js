@@ -19,7 +19,7 @@ $(document).ready(function($) {
 			var id = elem.attr("href");
 
 			//Height of the navigation
-			var offset = 60;
+			var offset = 96;
 
 			//Gets the distance from the top and 
 			//subtracts the height of the nav.
@@ -28,7 +28,7 @@ $(document).ready(function($) {
 
 		//Smooth scroll when user click link that starts with #
 
-		var elemHref = $('a.go-down[href^="#"]');
+		var elemHref = $('.navbar-right a[href^="#"], a.discover[href^="#"]');
 
 		elemHref.click(function(event) {
 			
@@ -37,14 +37,14 @@ $(document).ready(function($) {
 			var target = getTargetTop($(this));
 
 			//scrolls to that section.
-			$('html, body').animate({scrollTop:target}, 500);
+			$('html, body').animate({scrollTop:target}, 600);
 
 			//prevent the browser from jumping down to section.
 			event.preventDefault();
 		});
 
 		//Pulling sections from main nav.
-		var sections = $('a.go-down[href^="#"]');
+		var sections = $('.navbar-right a[href^="#"]');
 
 		// Go through each section to see if it's at the top.
 		// if it is add an active class
@@ -96,17 +96,19 @@ $(document).ready(function($) {
 		var nav = $(".navbar");
 		
 		var top_spacing = 0;
-		var waypoint_offset = 0;
+		var waypoint_offset = -100;
 
 		nav_container.waypoint({
 			handler: function(direction) {
 				if (direction == 'down') {
-	
+
+					nav_container.css({ 'height':nav.outerHeight() });		
 					nav.stop().addClass("active").css("top",-nav.outerHeight()).animate({"top":top_spacing});
 					//nav_container.stop().addClass("active").css("top",-nav.outerHeight()).animate({"top":top_spacing});
 					
 				} else {
 					
+					nav_container.css({ 'height':'96px' });
 					nav.stop().removeClass("active").css("top",nav.outerHeight()+waypoint_offset).animate({"top":""});
 					//nav_container.stop().removeClass("active").css("top",nav.outerHeight()+waypoint_offset).animate({"top":""});
 					

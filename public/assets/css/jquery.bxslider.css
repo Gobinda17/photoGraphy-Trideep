@@ -76,7 +76,7 @@
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
-	background: #fff;
+	background: #222;
 	border: 1px solid transparent;
 	text-indent: -9999px;
 	display: block;
@@ -113,7 +113,7 @@
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a.active:after {
-	border: 1px solid #fff;
+	border: 1px solid #222;
 }
 
 .black-testimonial .bx-wrapper .bx-pager.bx-default-pager a.active:after {
@@ -146,16 +146,6 @@
 
 .bx-wrapper .bx-controls-direction a:hover {
 	opacity: 0.5;
-}
-
-.bx-wrapper .bx-prev {
-	left: -2px;
-	background: url('../images/prev.png') center center no-repeat;
-}
-
-.bx-wrapper .bx-next {
-	right: -2px;
-	background: url('../images/next.png') center center no-repeat;
 }
 
 .bx-wrapper .bx-controls-direction a.disabled {

@@ -1,4 +1,7 @@
 /*jshint jquery:true */
+/*global $:true */
+
+var $ = jQuery.noConflict();
 
 $(document).ready(function($) {
 	"use strict";
@@ -41,7 +44,7 @@ $(document).ready(function($) {
 		} catch(err) {
 		}
 
-		winDow.on('resize', function(){
+		winDow.bind('resize', function(){
 			var selector = $filter.find('a.active').attr('data-filter');
 
 			try {
@@ -59,7 +62,7 @@ $(document).ready(function($) {
 		});
 		
 		// Isotope Filter 
-		$filter.find('a').on('click', function(){
+		$filter.find('a').click(function(){
 			var selector = $(this).attr('data-filter');
 
 			try {
@@ -125,50 +128,12 @@ $(document).ready(function($) {
 					});
 
 				});
-			}
-		}
+			};
+		};
 
 	} catch(err) {
 
 	}
-
-	/*-------------------------------------------------*/
-	/* =  browser detect
-	/*-------------------------------------------------
-
-	var ToogleMenu = $('a.open-menu');
-
-	ToogleMenu.on('click', function(event) {
-		event.preventDefault();
-
-		var MainMenu = $('.navbar-nav'),
-			$this = $(this);
-		if ( !$this.hasClass('opened') ) {
-			$this.addClass('opened');
-			MainMenu.addClass('active');
-		} else {
-			$this.removeClass('opened');
-			MainMenu.removeClass('active');
-		}
-	}); */
-
-	/*-------------------------------------------------*/
-	/* =  Search animation
-	/*-------------------------------------------------*/
-	
-	var searchToggle = $('.open-search a, a.open-menu'),
-		inputAnime = $("#right-sidebar"),
-		closeSidebtn = $("a.close-sidebar");
-
-	searchToggle.on('click', function(event){
-		event.preventDefault();
-		inputAnime.addClass('active');
-	});
-
-	closeSidebtn.on('click', function(event){
-		event.preventDefault();
-		inputAnime.removeClass('active');
-	});
 
 	/*-------------------------------------------------*/
 	/* =  flexslider
@@ -238,7 +203,7 @@ $(document).ready(function($) {
 	
 	var tabId = $('.nav-tabs a');
 	try{		
-		tabId.on('click', function (e) {
+		tabId.click(function (e) {
 			e.preventDefault();
 			$(this).tab('show');
 		});
@@ -287,9 +252,9 @@ $(document).ready(function($) {
 
 	try {
 
-		for( var j = 100; j <= 10000; j++ ){
+		for( var i = 100; i <= 10000; i++ ){
 			$('#start-val').append(
-				'<option value="' + j + '">' + j + '</option>'
+				'<option value="' + i + '">' + i + '</option>'
 			);
 		}
 		// Initialise noUiSlider
@@ -395,7 +360,7 @@ $(document).ready(function($) {
 	/* ---------------------------------------------------------------------- */
 
 	var LoadButton = $('a.load-post-container'),
-		PortContainer = ('.iso-call'),
+		PortContainer = ('.portfolio-box.iso-call'),
 		i = 0,
 		s = 0;
 
@@ -406,11 +371,11 @@ $(document).ready(function($) {
 			xel = parseInt($(this).attr('data-number'));
 
 		var storage = document.createElement('div');
-		$(storage).load("load-container/" + LoadContainer + " .project-post, .blog-post", function(){
+		$(storage).load("load-container/" + LoadContainer + " .project-post", function(){
 
-			var elemloadedLength = $(storage).find('.project-post, .blog-post').length;
+			var elemloadedLength = $(storage).find('.project-post').length;
 			
-			if ( ((s + 1) <= elemloadedLength) ) {
+			if ( !((s + 1) > elemloadedLength) ) {
 
 				s = i + xel;
 
@@ -419,29 +384,21 @@ $(document).ready(function($) {
 
 				if ( i === 0 ) {
 					/// create new item elements
-					$elems = $(storage).find(".project-post:lt(" + s + "), .blog-post:lt(" + s + ")").appendTo(PortContainer);
+					$elems = $(storage).find(".project-post:lt(" + s + ")").appendTo(PortContainer);
 					// append elements to container
-					$container.isotope( 'appended', $elems );
-
-					if ( LoadContainer == "blog-container3.html") {
-						$(storage).find(".blog-post:lt(" + s + ")").appendTo('.blog-box.timeline');
-					}
+					$('.portfolio-box').isotope( 'appended', $elems );
 
 				} else {
 					/// create new item elements
-					$elems = $(storage).find(".project-post:lt(" + s + "):gt("+ t +"), .blog-post:lt(" + s + "):gt("+ t +")").appendTo(PortContainer);
+					$elems = $(storage).find(".project-post:lt(" + s + "):gt("+ t +")").appendTo(PortContainer);
 					// append elements to container
-					$container.isotope( 'appended', $elems );
-
-					if ( LoadContainer == "blog-container3.html") {
-						$(storage).find(".blog-post:lt(" + s + "):gt("+ t +")").appendTo('.blog-box.timeline');
-					}
+					$('.portfolio-box').isotope( 'appended', $elems );
 				}
 
 				i = i + xel;
 			}
 
-			if ( ( s >= elemloadedLength ) ) {
+			if ( !( s < elemloadedLength ) ) {
 				$('a.load-post-container').text("No more posts");
 			}
 
@@ -578,7 +535,7 @@ $(document).ready(function($) {
 		}
 	});
 
-	winDow.on('resize', function(){
+	winDow.bind('resize', function(){
 		if ( winDow.width() > 991 ) {
 			navbarVertical.slideDown(300).removeClass('active');
 		} else {
@@ -615,45 +572,11 @@ $(document).ready(function($) {
 
 	}
 
-	/* ---------------------------------------------------------------------- */
-	/*	Header animate after scroll
-	/* ---------------------------------------------------------------------- */
-
-	(function() {
-
-		var docElem = document.documentElement,
-			didScroll = false,
-			changeHeaderOn = 250;
-			document.querySelector( 'header' );
-		function init() {
-			window.addEventListener( 'scroll', function() {
-				if( !didScroll ) {
-					didScroll = true;
-					setTimeout( scrollPage, 100 );
-				}
-			}, false );
-		}
-		
-		function scrollPage() {
-			var sy = scrollY();
-			if ( sy >= changeHeaderOn ) {
-				$( 'header' ).addClass('active');
-			}
-			else {
-				$( 'header' ).removeClass('active');
-			}
-			didScroll = false;
-		}
-		
-		function scrollY() {
-			return window.pageYOffset || docElem.scrollTop;
-		}
-		
-		init();
-		
-	})();
-
 });
+
+function Resize() {
+	$(window).trigger('resize');
+}
 
 function mapcallFunction() {
 	var contact = {"lat":"-33.880641", "lon":"151.204298"}; //Change a map coordinate here!
