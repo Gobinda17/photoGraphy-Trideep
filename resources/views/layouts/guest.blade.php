@@ -2,7 +2,7 @@
 <html lang="en" class="no-js">
 
 <head>
-	<title>Photofolio</title>
+	<title>Trideep Kalita | Portfolio</title>
 
 	<meta charset="utf-8">
 
@@ -24,6 +24,8 @@
 	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/navigation.css') }}">
 
 	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}" media="screen">
+
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/fancyBox.css') }}" media="screen">
 
 	<script type="text/javascript" src="{{ asset('assets/js/jquery.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('assets/js/jquery.migrate.js') }}"></script>
@@ -57,6 +59,8 @@
 
 	<script type="text/javascript" src="{{ asset('assets/js/script.js') }}"></script>
 
+	<script type="text/javascript" src="{{ asset('assets/js/fancyBox.js') }}"></script>
+
 </head>
 
 <body>
@@ -71,16 +75,12 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
-                    <p>Copyright © 2015 by Upifix. Made with Love.</p>
+                    <p>Copyright © 2025 by Cybernet Solutions. Made with Love.</p>
                 </div>
                 <div class="col-md-6">
                     <ul class="social-icons">
                         <li><a href="#">facebook</a></li>
-                        <li><a href="#">twitter</a></li>
-                        <li><a href="#">pinterest</a></li>
-                        <li><a href="#">google +</a></li>
                         <li><a href="#">instagram</a></li>
-                        <li><a href="#">flickr</a></li>
                     </ul>
                 </div>
             </div>

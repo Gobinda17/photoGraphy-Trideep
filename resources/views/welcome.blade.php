@@ -188,16 +188,15 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img alt="" src="{{ asset('assets/images/logo.png') }}"></a>
+                    <a class="navbar-brand" href="index.html">
+                        <img alt="" src="{{ asset('assets/images/logo.png') }}">
+                    </a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="active" href="#home-section">Home</a></li>
                         <li><a href="#about-section">About</a></li>
                         <li><a href="#portfolio-section">Work</a></li>
-                        <li><a href="#testimonial-section">Testimonials</a></li>
-                        <li><a href="#blog-section">Blog</a></li>
-                        <li><a href="#price-section">Prices</a></li>
                         <li><a href="#contact-section">Contact</a></li>
                     </ul>
                 </div>
@@ -212,16 +211,16 @@
             <div class="about-me-box">
 
                 <div class="my-identity">
-                    <img src="{{ asset('assets/upload/others/about.jpg') }}" alt="">
+                    <img src="{{ asset('assets/upload/others/about.png') }}" alt="">
                     <div class="hover-about">
-                        <h1>Hello</h1>
+                        {{-- <h1>Hello</h1> --}}
                         <img src="{{ asset('assets/images/signature.png') }}" alt="">
                     </div>
                 </div>
 
                 <div class="personal-info">
                     <h2 class="section-active"><span>01/ </span> About</h2>
-                    <h1>I'm John Doe, <br> photographer &amp; Designer</h1>
+                    <h1>I'm Trideep Kalita, <br>wildlife photographer &amp; Designer</h1>
                     <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</p>
                     <div class="skills-box">
                         <div class="row">
@@ -255,134 +254,108 @@
             </div>
             <ul class="filter">
                 <li><a class="active" href="#" data-filter="*">all</a></li>
-                <li><a href="#" data-filter=".interior">interior</a></li>
-                <li><a href="#" data-filter=".landscape">landscape</a></li>
-                <li><a href="#" data-filter=".portrait">portrait</a></li>
-                <li><a href="#" data-filter=".lifestyle">lifestyle</a></li>
+                <li><a href="#" data-filter=".app">app</a></li>
+                <li><a href="#" data-filter=".artCraft">art & craft</a></li>
+                <li><a href="#" data-filter=".bookCover">book cover</a></li>
+                <li><a href="#" data-filter=".illustrations">illustrations</a></li>
+                <li><a href="#" data-filter=".logos">logos</a></li>
+                <li><a href="#" data-filter=".wildlife">wildlife</a></li>
+                <li><a href="#" data-filter=".poster">poster</a></li>
+                <li><a href="#" data-filter=".websites">websites</a></li>
             </ul>			
         </div>
-        <div class="portfolio-box iso-call col-3">
-            <div class="project-post interior">
-                <img src="{{ asset('assets/upload/portfolio/ms1.jpg') }}" alt="">
-                <div class="hover-box">
-                    <div class="inner-hover">
-                        <a class="likes" href="#">14 <i class="fa fa-heart-o"></i></a>
-                        <h2><a href="../single-project.html">Cras iaculis</a></h2>
-                        <ul class="project-tags">
-                            <li><a href="#">Interior,</a></li>
-                            <li><a href="#">Product</a></li>
-                        </ul>
+        <div class="portfolio-box iso-call col-3" id="gallery">
+            @for ($i = 1; $i <= 119; $i++)
+                <div class="project-post wildlife">
+                    <img src="{{ asset('assets/upload/portfolio/photos/' . $i . '.jpg') }}" alt="Wildlife Photography">
+                    <div class="hover-box">
+                        <div class="inner-hover">
+                            <h2><a href="{{ asset('assets/upload/portfolio/photos/' . $i . '.jpg') }}" data-fancybox="gallery" data-caption="Wildlife Photography">Wildlife Photography</a></h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project-post landscape lifestyle">
-                <img src="{{ asset('assets/upload/portfolio/ms2.jpg') }}" alt="">
-                <div class="hover-box">
-                    <div class="inner-hover">
-                        <a class="likes" href="#">14 <i class="fa fa-heart-o"></i></a>
-                        <h2><a href="../single-project.html">Cras iaculis</a></h2>
-                        <ul class="project-tags">
-                            <li><a href="#">Interior,</a></li>
-                            <li><a href="#">Product</a></li>
-                        </ul>
+            @endfor
+
+            @for ($i = 1; $i <= 13; $i++)
+                <div class="project-post bookCover">
+                    <img src="{{ asset('assets/upload/portfolio/book_cover/' . $i . '.jpg') }}" alt="Book Cover Design">
+                    <div class="hover-box">
+                        <div class="inner-hover">
+                            <h2><a href="{{ asset('assets/upload/portfolio/book_cover/' . $i . '.jpg') }}" data-fancybox="gallery" data-caption="Book Cover Design">Book Cover Design</a></h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project-post interior portrait">
-                <img src="{{ asset('assets/upload/portfolio/ms3.jpg') }}" alt="">
-                <div class="hover-box">
-                    <div class="inner-hover">
-                        <a class="likes" href="#">14 <i class="fa fa-heart-o"></i></a>
-                        <h2><a href="../single-project.html">Cras iaculis</a></h2>
-                        <ul class="project-tags">
-                            <li><a href="#">Interior,</a></li>
-                            <li><a href="#">Product</a></li>
-                        </ul>
+            @endfor
+
+            @for ($i = 1; $i <= 16; $i++)
+                <div class="project-post logos">
+                    <img src="{{ asset('assets/upload/portfolio/logo/' . $i . '.jpg') }}" alt="Logo Design">
+                    <div class="hover-box">
+                        <div class="inner-hover">
+                            <h2><a href="{{ asset('assets/upload/portfolio/logo/' . $i . '.jpg') }}" data-fancybox="gallery" data-caption="Logo Design">Logo Design</a></h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project-post portrait">
-                <img src="{{ asset('assets/upload/portfolio/ms4.jpg') }}" alt="">
-                <div class="hover-box">
-                    <div class="inner-hover">
-                        <a class="likes" href="#">14 <i class="fa fa-heart-o"></i></a>
-                        <h2><a href="../single-project.html">Cras iaculis</a></h2>
-                        <ul class="project-tags">
-                            <li><a href="#">Interior,</a></li>
-                            <li><a href="#">Product</a></li>
-                        </ul>
+            @endfor
+
+            @for ($i = 1; $i <= 35; $i++)
+                <div class="project-post poster">
+                    <img src="{{ asset('assets/upload/portfolio/poster/' . $i . '.png') }}" alt="Poster Design">
+                    <div class="hover-box">
+                        <div class="inner-hover">
+                            <h2><a href="{{ asset('assets/upload/portfolio/poster/' . $i . '.png') }}" data-fancybox="gallery" data-caption="Poster Design">Poster Design</a></h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project-post landscape">
-                <img src="{{ asset('assets/upload/portfolio/ms5.jpg') }}" alt="">
-                <div class="hover-box">
-                    <div class="inner-hover">
-                        <a class="likes" href="#">14 <i class="fa fa-heart-o"></i></a>
-                        <h2><a href="../single-project.html">Cras iaculis</a></h2>
-                        <ul class="project-tags">
-                            <li><a href="#">Interior,</a></li>
-                            <li><a href="#">Product</a></li>
-                        </ul>
+            @endfor
+
+            @for ($i = 1; $i <= 42; $i++)
+                <div class="project-post app">
+                    <img src="{{ asset('assets/upload/portfolio/app/' . $i . '.png') }}" alt="App Design">
+                    <div class="hover-box">
+                        <div class="inner-hover">
+                            <h2><a href="{{ asset('assets/upload/portfolio/app/' . $i . '.png') }}" data-fancybox="gallery" data-caption="App Design">App Design</a></h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project-post portrait lifestyle">
-                <img src="{{ asset('assets/upload/portfolio/ms6.jpg') }}" alt="">
-                <div class="hover-box">
-                    <div class="inner-hover">
-                        <a class="likes" href="#">14 <i class="fa fa-heart-o"></i></a>
-                        <h2><a href="../single-project.html">Cras iaculis</a></h2>
-                        <ul class="project-tags">
-                            <li><a href="#">Interior,</a></li>
-                            <li><a href="#">Product</a></li>
-                        </ul>
+            @endfor
+
+            @for ($i = 1; $i <= 45; $i++)
+                <div class="project-post websites">
+                    <img src="{{ asset('assets/upload/portfolio/website/' . $i . '.png') }}" alt="Web Design">
+                    <div class="hover-box">
+                        <div class="inner-hover">
+                            <h2><a href="{{ asset('assets/upload/portfolio/website/' . $i . '.png') }}" data-fancybox="gallery" data-caption="Web Design">Web Design</a></h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project-post lifestyle">
-                <img src="{{ asset('assets/upload/portfolio/ms7.jpg') }}" alt="">
-                <div class="hover-box">
-                    <div class="inner-hover">
-                        <a class="likes" href="#">14 <i class="fa fa-heart-o"></i></a>
-                        <h2><a href="../single-project.html">Cras iaculis</a></h2>
-                        <ul class="project-tags">
-                            <li><a href="#">Interior,</a></li>
-                            <li><a href="#">Product</a></li>
-                        </ul>
+            @endfor
+
+            @for ($i = 1; $i <= 49; $i++)
+                <div class="project-post illustrations">
+                    <img src="{{ asset('assets/upload/portfolio/illustration/' . $i . '.png') }}" alt="Illustration Design">
+                    <div class="hover-box">
+                        <div class="inner-hover">
+                            <h2><a href="{{ asset('assets/upload/portfolio/illustration/' . $i . '.png') }}" data-fancybox="gallery" data-caption="Illustration Design">Illustration Design</a></h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project-post landscape">
-                <img src="{{ asset('assets/upload/portfolio/ms8.jpg') }}" alt="">
-                <div class="hover-box">
-                    <div class="inner-hover">
-                        <a class="likes" href="#">14 <i class="fa fa-heart-o"></i></a>
-                        <h2><a href="../single-project.html">Cras iaculis</a></h2>
-                        <ul class="project-tags">
-                            <li><a href="#">Interior,</a></li>
-                            <li><a href="#">Product</a></li>
-                        </ul>
+            @endfor
+            
+            @for ($i = 1; $i <= 27; $i++)
+                <div class="project-post artCraft">
+                    <img src="{{ asset('assets/upload/portfolio/art_and_craft/' . $i . '.jpg') }}" alt="Art & Craft Design">
+                    <div class="hover-box">
+                        <div class="inner-hover">
+                            <h2><a href="{{ asset('assets/upload/portfolio/art_and_craft/' . $i . '.jpg') }}" data-fancybox="gallery" data-caption="Art & Craft Design">Art & Craft Design</a></h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="project-post interior lifestyle">
-                <img src="{{ asset('assets/upload/portfolio/ms9.jpg') }}" alt="">
-                <div class="hover-box">
-                    <div class="inner-hover">
-                        <a class="likes" href="#">14 <i class="fa fa-heart-o"></i></a>
-                        <h2><a href="../single-project.html">Cras iaculis</a></h2>
-                        <ul class="project-tags">
-                            <li><a href="#">Interior,</a></li>
-                            <li><a href="#">Product</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            @endfor
         </div>
-        <div class="center-button">
+        {{-- <div class="center-button">
             <a href="#" class="load-post-container" data-load="posts-container1.html" data-number="3"><span>show me more</span></a>
-        </div>
+        </div> --}}
     </section>
     <!-- End Portfolio section -->
 
