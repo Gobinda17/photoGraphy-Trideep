@@ -281,7 +281,7 @@ section.about-me-section .about-me-box .my-identity .hover-about {
   top: 50%;
   left: 0;
   width: 100%;
-  margin-top: -100px;
+  /* margin-top: -100px; */
 }
 section.about-me-section .about-me-box .my-identity .hover-about h1 {
   color: #ffffff;
@@ -317,12 +317,13 @@ section.about-me-section .about-me-box .personal-info h1 {
   margin-bottom: 15px;
 }
 section.about-me-section .about-me-box .personal-info p {
-  max-width: 500px;
+  /* max-width: 500px; */
   letter-spacing: 0.6px;
   margin-bottom: 15px;
 }
 section.about-me-section .about-me-box .personal-info .skills-box {
-  max-width: 500px;
+  /* max-width: 500px; */
+  max-width: 100%;
   padding-top: 30px;
   text-align: center;
 }

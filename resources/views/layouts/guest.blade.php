@@ -6,8 +6,37 @@
 
 	<meta charset="utf-8">
 
+	<link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
+    <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
+
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Primary Meta Tags -->
+    <meta name="title" content="Trideep Kalita | Portfolio" />
+    <meta name="description" content="Welcome to the portfolio of Trideep Kalita, a wildlife photographer and visual designer from Guwahati, Assam. Explore my work and connect with me." />
+
+	<!-- Open Graph Meta Tags for WhatsApp -->
+    <meta property="og:title" content="Trideep Kalita | Portfolio" />
+    <meta property="og:description" content="Welcome to the portfolio of Trideep Kalita, a wildlife photographer and visual designer from Guwahati, Assam. Explore my work and connect with me." />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="Trideep Kalita | Portfolio" />
+    <meta property="og:description" content="Welcome to the portfolio of Trideep Kalita, a wildlife photographer and visual designer from Guwahati, Assam. Explore my work and connect with me." />
+    <meta property="og:image" content="" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="" />
+    <meta property="twitter:title" content="Trideep Kalita | Portfolio" />
+    <meta property="twitter:description" content="Welcome to the portfolio of Trideep Kalita, a wildlife photographer and visual designer from Guwahati, Assam. Explore my work and connect with me." />
+    <meta property="twitter:image" content="" />
 
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Montserrat:400,700|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Yesteryear" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -54,12 +83,13 @@
 	<script type="text/javascript" src="{{ asset('assets/js/extensions/revolution.extension.parallax.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('assets/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('assets/js/extensions/revolution.extension.video.min.js') }}"></script>
-    <script src="http://maps.google.com/maps/api/js?key=AIzaSyCiqrIen8rWQrvJsu-7f4rOta0fmI5r2SI&amp;sensor=false&amp;language=en" type="text/javascript"></script>
-	<script type="text/javascript" src="{{ asset('assets/js/gmap3.min.js') }}"></script>
+	{{-- <script type="text/javascript" src="{{ asset('assets/js/gmap3.min.js') }}"></script> --}}
 
 	<script type="text/javascript" src="{{ asset('assets/js/script.js') }}"></script>
 
 	<script type="text/javascript" src="{{ asset('assets/js/fancyBox.js') }}"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
 </head>
 
@@ -75,12 +105,12 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
-                    <p>Copyright © 2025 by Cybernet Solutions. Made with Love.</p>
+                    <p>Copyright © Trideep Kalita | Developed by <a target="_blank" href="https://cybernetssolutions.com/">Cybernet Solutions</a></p>
                 </div>
                 <div class="col-md-6">
                     <ul class="social-icons">
-                        <li><a href="#">facebook</a></li>
-                        <li><a href="#">instagram</a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/share/1Bz8zzN8Pg/?mibextid=wwXIfr">facebook</a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/trideepkalitaphotography?igsh=YmdqMnljMnVwM2dp&utm_source=qr">instagram</a></li>
                     </ul>
                 </div>
             </div>
@@ -177,10 +207,34 @@
 				DevSolutionSkill.init('circle1'); 
 				DevSolutionSkill.init('circle2'); 
 				DevSolutionSkill.init('circle3');
+				DevSolutionSkill.init('circle4');
 			});
 		});
 	</script>
 	<script type="text/javascript" src="{{ asset('assets/js/smooth-scroll.js') }}"></script>
+
+	<script type="text/javascript">
+		emailjs.init('t_E2umQT3zzdgNqoa');
+
+		document.getElementById('contact-form').addEventListener('submit', async function(e) {
+			e.preventDefault();
+			const form = e.target;
+			console.log('Form submitted:', form);
+			const params = {
+				name: form.name.value,
+				email: form.mail.value,
+				message: form.comment.value
+			};
+			try {
+				await emailjs.send('service_i6wqscg', 'template_lgsqmuh', params);
+				alert('Message sent successfully!');
+				form.reset();
+			} catch (err) {
+				console.error(err);
+				alert('Failed to send. Please try again later.');
+			}
+		});
+	</script>
 
 </body>
 

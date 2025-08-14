@@ -17,6 +17,7 @@
                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
                                 data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
                             data-lineheight="['70','70','70','50']"
+                            data-fontsize="['30', '25', '20', '25']"
                             data-width="none"
                             data-height="none"
                             data-whitespace="nowrap"
@@ -33,14 +34,39 @@
 
                             data-elementdelay="0.05" 
                             
-                            style="z-index: 5; white-space: nowrap;">Cras iaculis ultricies
+                            style="z-index: 5; white-space: nowrap;">Blackbucks bound
                         </div>
+                        <div class="tp-caption Newspaper-Title tp-resizeme" 
+                                id="slide-149-layer-2" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['50','50','50','30']"
+                            data-lineheight="['70','70','70','50']"
+                            data-fontsize="['30', '25', '20', '25']"
+                            data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                    
+                                data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                            data-start="1200" 
+                            data-splitin="chars" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+
+                            data-elementdelay="0.05" 
+                            
+                            style="z-index: 5; white-space: nowrap;">across nature’s mirror.
+                        </div>
+
 
                         <!-- LAYER NR. 2 -->
                         <div class="tp-caption NotGeneric-SubTitle" 
                                 id="slide-149-layer-4" 
                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                                data-y="['middle','middle','middle','middle']" data-voffset="['60','60','60','60']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['90','90','90','60']" 
                                         data-width="none"
                             data-height="none"
                             data-whitespace="nowrap"
@@ -55,8 +81,8 @@
                             data-splitout="none" 
                             data-responsive_offset="on" 
 
-                            
-                            style="z-index: 6; white-space: nowrap;">Vestibulum volutpat, lacus a ultrices sagittis, mi neque <br>euismod dui, eu pulvinar nunc sapien ornare nisl. 
+
+                            style="z-index: 6; white-space: nowrap;">Captured in Tal Chhapar Wildlife Sanctuary, Rajasthan.
                         </div>
 
                     </li>
@@ -72,6 +98,7 @@
                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
                                 data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
                             data-lineheight="['70','70','70','50']"
+                            data-fontsize="['30', '25', '20', '25']"
                             data-width="none"
                             data-height="none"
                             data-whitespace="nowrap"
@@ -88,14 +115,38 @@
 
                             data-elementdelay="0.05" 
                             
-                            style="z-index: 5; white-space: nowrap;">Donec nec justo 
+                            style="z-index: 5; white-space: nowrap;">Wings clash,
+                        </div>
+                        <div class="tp-caption Newspaper-Title tp-resizeme" 
+                                id="slide-150-layer-2" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['50','50','50','30']"
+                            data-lineheight="['70','70','70','50']"
+                            data-fontsize="['30', '25', '20', '25']"
+                            data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                    
+                                data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                            data-start="1000" 
+                            data-splitin="chars" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+
+                            data-elementdelay="0.05" 
+                            
+                            style="z-index: 5; white-space: nowrap;">talons strike in mid-air.
                         </div>
 
                         <!-- LAYER NR. 2 -->
                         <div class="tp-caption NotGeneric-SubTitle  tp-resizeme" 
                                 id="slide-150-layer-4" 
                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                                data-y="['middle','middle','middle','middle']" data-voffset="['60','60','60','60']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['90','90','90','80']" 
                                         data-width="none"
                             data-height="none"
                             data-whitespace="nowrap"
@@ -111,7 +162,7 @@
                             data-responsive_offset="on" 
 
                             
-                            style="z-index: 6; white-space: nowrap;">Morbi interdum mollis sapien. Sed ac risus. 
+                            style="z-index: 6; white-space: nowrap;">Captured in Tal Chhapar Wildlife Sanctuary, Rajasthan <br/>— Laggar Falcon and Black Kite.
                         </div>
 
                     </li>
@@ -123,10 +174,11 @@
 
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption Newspaper-Title tp-resizeme" 
-                            id="slide-151-layer-1" 
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                            data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                                id="slide-151-layer-1" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
                             data-lineheight="['70','70','70','50']"
+                            data-fontsize="['30', '25', '20', '25']"
                             data-width="none"
                             data-height="none"
                             data-whitespace="nowrap"
@@ -143,14 +195,38 @@
 
                             data-elementdelay="0.05" 
                             
-                            style="z-index: 5; white-space: nowrap;">Morbi in sem quis dui
+                            style="z-index: 5; white-space: nowrap;">Giants graze in
+                        </div>
+                        <div class="tp-caption Newspaper-Title tp-resizeme" 
+                                id="slide-151-layer-2" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['50','50','50','30']"
+                            data-lineheight="['70','70','70','50']"
+                            data-fontsize="['30', '25', '20', '25']"
+                            data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                    
+                                data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                            data-start="1200" 
+                            data-splitin="chars" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+
+                            data-elementdelay="0.05" 
+                            
+                            style="z-index: 5; white-space: nowrap;">a sea of white.
                         </div>
 
                         <!-- LAYER NR. 2 -->
-                        <div class="tp-caption NotGeneric-SubTitle tp-resizeme" 
+                        <<div class="tp-caption NotGeneric-SubTitle" 
                                 id="slide-151-layer-4" 
                                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                                data-y="['middle','middle','middle','middle']" data-voffset="['60','60','60','60']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['90','90','90','60']" 
                                         data-width="none"
                             data-height="none"
                             data-whitespace="nowrap"
@@ -165,8 +241,328 @@
                             data-splitout="none" 
                             data-responsive_offset="on" 
 
+
+                            style="z-index: 6; white-space: nowrap;">Captured in Kaziranga National Park <br/>— Asiatic Water Buffalo.
+                        </div>
+
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-152" data-transition="fadetotopfadefrombottom" data-slotamount="default"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1500" data-rotate="0"  data-saveperformance="off"  data-title="Chill" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="{{ asset('assets/upload/slide/4.jpg') }}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
+
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption Newspaper-Title tp-resizeme" 
+                                id="slide-152-layer-1" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                            data-lineheight="['70','70','70','50']"
+                            data-fontsize="['30', '25', '20', '25']"
+                            data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                    
+                                data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                            data-start="1000" 
+                            data-splitin="chars" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+
+                            data-elementdelay="0.05" 
                             
-                            style="z-index: 6; white-space: nowrap;">Sed vel lacus. Mauris nibh felis, adipiscing varius, <br> adipiscing in, lacinia vel, tellus. Suspendisse ac urna.
+                            style="z-index: 5; white-space: nowrap;">A silent monarch
+                        </div>
+                        <div class="tp-caption Newspaper-Title tp-resizeme" 
+                                id="slide-152-layer-2" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['50','50','50','30']"
+                            data-lineheight="['70','70','70','50']"
+                            data-fontsize="['30', '25', '20', '25']"
+                            data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                    
+                                data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                            data-start="1200" 
+                            data-splitin="chars" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+
+                            data-elementdelay="0.05" 
+                            
+                            style="z-index: 5; white-space: nowrap;">of the misty trail.
+                        </div>
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption NotGeneric-SubTitle" 
+                                id="slide-152-layer-4" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['90','90','90','60']" 
+                                        data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                    
+                                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                            data-start="1500" 
+                            data-splitin="none" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+
+
+                            style="z-index: 6; white-space: nowrap;">Captured in Kaziranga National Park <br/> — Bengal Tiger.
+                        </div>
+
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-153" data-transition="fadetotopfadefrombottom" data-slotamount="default"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1500" data-rotate="0"  data-saveperformance="off"  data-title="Chill" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="{{ asset('assets/upload/slide/5.jpg') }}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
+
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption Newspaper-Title tp-resizeme" 
+                                id="slide-153-layer-1" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                            data-lineheight="['70','70','70','50']"
+                            data-fontsize="['30', '25', '20', '25']"
+                            data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                    
+                                data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                            data-start="1000" 
+                            data-splitin="chars" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+
+                            data-elementdelay="0.05" 
+                            
+                            style="z-index: 5; white-space: nowrap;">A tender moment
+                        </div>
+                        <div class="tp-caption Newspaper-Title tp-resizeme" 
+                                id="slide-153-layer-2" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['50','50','50','30']"
+                            data-lineheight="['70','70','70','50']"
+                            data-fontsize="['30', '25', '20', '25']"
+                            data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                    
+                                data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                            data-start="1200" 
+                            data-splitin="chars" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+
+                            data-elementdelay="0.05" 
+                            
+                            style="z-index: 5; white-space: nowrap;">beneath the forest canopy.
+                        </div>
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption NotGeneric-SubTitle" 
+                                id="slide-153-layer-4" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['90','90','90','60']" 
+                                        data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                    
+                                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                            data-start="1500" 
+                            data-splitin="none" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+
+
+                            style="z-index: 6; white-space: nowrap;">Captured in Kaziranga National Park <br/>— Greater One-horned Rhinoceros.
+                        </div>
+
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-154" data-transition="fadetotopfadefrombottom" data-slotamount="default"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1500" data-rotate="0"  data-saveperformance="off"  data-title="Chill" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="{{ asset('assets/upload/slide/6.jpg') }}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
+
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption Newspaper-Title tp-resizeme" 
+                                id="slide-154-layer-1" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                            data-lineheight="['70','70','70','50']"
+                            data-fontsize="['30', '25', '20', '25']"
+                            data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                    
+                                data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                            data-start="1000" 
+                            data-splitin="chars" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+
+                            data-elementdelay="0.05" 
+                            
+                            style="z-index: 5; white-space: nowrap;">Elegance on the prowl
+                        </div>
+                        <div class="tp-caption Newspaper-Title tp-resizeme" 
+                                id="slide-154-layer-2" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['50','50','50','30']"
+                            data-lineheight="['70','70','70','50']"
+                            data-fontsize="['30', '25', '20', '25']"
+                            data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                    
+                                data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                            data-start="1200" 
+                            data-splitin="chars" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+
+                            data-elementdelay="0.05" 
+                            
+                            style="z-index: 5; white-space: nowrap;">among the trees.
+                        </div>
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption NotGeneric-SubTitle" 
+                                id="slide-154-layer-4" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['90','90','90','60']" 
+                                        data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                    
+                                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                            data-start="1500" 
+                            data-splitin="none" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+
+
+                            style="z-index: 6; white-space: nowrap;">Captured in Jhalana Leopard Reserve, Jaipur <br/> — Indian Leopard.
+                        </div>
+
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-155" data-transition="fadetotopfadefrombottom" data-slotamount="default"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1500" data-rotate="0"  data-saveperformance="off"  data-title="Chill" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="{{ asset('assets/upload/slide/7.jpg') }}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <!-- LAYERS -->
+
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption Newspaper-Title tp-resizeme" 
+                                id="slide-155-layer-1" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                            data-lineheight="['70','70','70','50']"
+                            data-fontsize="['30', '25', '20', '25']"
+                            data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                    
+                                data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                            data-start="1000" 
+                            data-splitin="chars" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+
+                            data-elementdelay="0.05" 
+                            
+                            style="z-index: 5; white-space: nowrap;">Golden dust dances
+                        </div>
+                        <div class="tp-caption Newspaper-Title tp-resizeme" 
+                                id="slide-155-layer-2" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['50','50','50','30']"
+                            data-lineheight="['70','70','70','50']"
+                            data-fontsize="['30', '25', '20', '25']"
+                            data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                    
+                                data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                            data-start="1200" 
+                            data-splitin="chars" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+
+                            data-elementdelay="0.05" 
+                            
+                            style="z-index: 5; white-space: nowrap;">in the evening light.
+                        </div>
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption NotGeneric-SubTitle" 
+                                id="slide-155-layer-4" 
+                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                data-y="['middle','middle','middle','middle']" data-voffset="['90','90','90','60']" 
+                                        data-width="none"
+                            data-height="none"
+                            data-whitespace="nowrap"
+                            data-transform_idle="o:1;"
+                    
+                                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
+                                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
+                                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                            data-start="1500" 
+                            data-splitin="none" 
+                            data-splitout="none" 
+                            data-responsive_offset="on" 
+
+
+                            style="z-index: 6; white-space: nowrap;">Captured in Kaziranga National Park <br/>— Asian Elephants.
                         </div>
 
                     </li>
@@ -221,20 +617,24 @@
                 <div class="personal-info">
                     <h2 class="section-active"><span>01/ </span> About</h2>
                     <h1>I'm Trideep Kalita, <br>wildlife photographer &amp; Designer</h1>
-                    <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</p>
+                    <p>I’m Trideep Kalita, a wildlife photographer and visual designer from Guwahati, Assam. With a background in Fine Arts and Animation Design, I blend creativity, technology, and storytelling to craft designs that connect and photographs that inspire.</p>
                     <div class="skills-box">
                         <div class="row">
-                            <div class="col-md-4 col-sm-4">
+                            <div class="col-md-3 col-sm-3">
                                 <h3>Photography</h3>
                                 <div id="circle1" class="circle-skill" data-percent="95" data-background="#222"></div>
                             </div>
-                            <div class="col-md-4 col-sm-4">
-                                <h3>branding</h3>
-                                <div id="circle2" class="circle-skill" data-percent="70" data-background="#222"></div>
+                            <div class="col-md-3 col-sm-3">
+                                <h3>graphic & webdesign</h3>
+                                <div id="circle2" class="circle-skill" data-percent="85" data-background="#222"></div>
                             </div>
-                            <div class="col-md-4 col-sm-4">
-                                <h3>webdesign</h3>
-                                <div id="circle3" class="circle-skill" data-percent="80" data-background="#222"></div>
+                            <div class="col-md-3 col-sm-3">
+                                <h3>art & craft</h3>
+                                <div id="circle3" class="circle-skill" data-percent="85" data-background="#222"></div>
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <h3>illustrations</h3>
+                                <div id="circle4" class="circle-skill" data-percent="75" data-background="#222"></div>
                             </div>
                         </div>
                     </div>
@@ -363,7 +763,7 @@
     <section class="contact-section" id="contact-section">
 
         <div class="map-holder">
-            <div id="map"></div>
+            <img src="{{ asset('assets/upload/portfolio/contact.jpg') }}" alt="Contact Image" style="width: 100%; height: auto;">
         </div>
 
         <div class="contact-form-part">
@@ -376,16 +776,15 @@
                 <input type="submit" id="submit_contact" value="Submit">
                 <div id="msg" class="message"></div>
             </form>
-            <p><span>Location:</span> 412 Throop Ave, <br>
-            Brooklyn, NY 11221, USA <br>
-            <span>Email:</span> contact@company.com</p>
+            <p><span>Location:</span> Guwahati, Assam, India<br>
+            <span>Email:</span> trideepkalita@gmail.com</p>
         </div>
 
     </section>
     <!-- End contact section -->
 
     <!-- instagram feed section -->
-    <section class="instagram-feed-section">
+    {{-- <section class="instagram-feed-section">
         <h1>instagram widget @Photofolio</h1>
         <ul class="instagram-list">
             <li>
@@ -437,6 +836,6 @@
                 </div>
             </li>
         </ul>
-    </section>
+    </section> --}}
     <!-- End instagram feed section -->
 </x-guest-layout>
