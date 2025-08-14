@@ -2,7 +2,7 @@
 <html lang="en" class="no-js">
 
 <head>
-    <title>Trideep Kalita | Portfolio</title>
+    <title>Trideep Kalita - Wildlife Photographer</title>
 
     <meta charset="utf-8">
 
@@ -12,16 +12,22 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="robots" content="index, follow">
+
 
     <!-- Primary Meta Tags -->
-    <meta name="title" content="Trideep Kalita | Portfolio" />
+    <meta name="title" content="Trideep Kalita - Wildlife Photographer" />
     <meta name="description"
-        content="Welcome to the portfolio of Trideep Kalita, a wildlife photographer and visual designer from Guwahati, Assam. Explore my work and connect with me." />
+        content=" Welcome to a curated collection where design meets nature and creativity. With 228 design works, 124 wildlife captures, and 120 photography masterpieces, our site celebrates the art of visual expression. Dive into 49 imaginative illustrations and 36 vibrant posters, each thoughtfully created to engage and inspire. Our content naturally highlights keywords like design, wildlife, photography, illustration, and poster, ensuring relevance while maintaining a smooth, engaging narrative for visitors and search engines alike.
+
+" />
 
     <!-- Open Graph Meta Tags for WhatsApp -->
-    <meta property="og:title" content="Trideep Kalita | Portfolio" />
+    <meta property="og:title" content="Trideep Kalita - Wildlife Photographer" />
     <meta property="og:description"
-        content="Welcome to the portfolio of Trideep Kalita, a wildlife photographer and visual designer from Guwahati, Assam. Explore my work and connect with me." />
+        content=" Welcome to a curated collection where design meets nature and creativity. With 228 design works, 124 wildlife captures, and 120 photography masterpieces, our site celebrates the art of visual expression. Dive into 49 imaginative illustrations and 36 vibrant posters, each thoughtfully created to engage and inspire. Our content naturally highlights keywords like design, wildlife, photography, illustration, and poster, ensuring relevance while maintaining a smooth, engaging narrative for visitors and search engines alike.
+
+" />
     <meta property="og:image" content="https://www.trideepkalita.com/assets/upload/og_tag_img.jpg" />
     <meta property="og:url" content="https://www.trideepkalita.com" />
     <meta property="og:type" content="website" />
@@ -29,17 +35,21 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.trideepkalita.com" />
-    <meta property="og:title" content="Trideep Kalita | Portfolio" />
+    <meta property="og:title" content="Trideep Kalita - Wildlife Photographer" />
     <meta property="og:description"
-        content="Welcome to the portfolio of Trideep Kalita, a wildlife photographer and visual designer from Guwahati, Assam. Explore my work and connect with me." />
+        content=" Welcome to a curated collection where design meets nature and creativity. With 228 design works, 124 wildlife captures, and 120 photography masterpieces, our site celebrates the art of visual expression. Dive into 49 imaginative illustrations and 36 vibrant posters, each thoughtfully created to engage and inspire. Our content naturally highlights keywords like design, wildlife, photography, illustration, and poster, ensuring relevance while maintaining a smooth, engaging narrative for visitors and search engines alike.
+
+" />
     <meta property="og:image" content="https://www.trideepkalita.com/assets/upload/og_tag_img.jpg" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://www.trideepkalita.com" />
-    <meta property="twitter:title" content="Trideep Kalita | Portfolio" />
+    <meta property="twitter:title" content="Trideep Kalita - Wildlife Photographer" />
     <meta property="twitter:description"
-        content="Welcome to the portfolio of Trideep Kalita, a wildlife photographer and visual designer from Guwahati, Assam. Explore my work and connect with me." />
+        content=" Welcome to a curated collection where design meets nature and creativity. With 228 design works, 124 wildlife captures, and 120 photography masterpieces, our site celebrates the art of visual expression. Dive into 49 imaginative illustrations and 36 vibrant posters, each thoughtfully created to engage and inspire. Our content naturally highlights keywords like design, wildlife, photography, illustration, and poster, ensuring relevance while maintaining a smooth, engaging narrative for visitors and search engines alike.
+
+" />
     <meta property="twitter:image" content="https://www.trideepkalita.com/assets/upload/og_tag_img.jpg" />
 
     <link
