@@ -587,7 +587,7 @@
         </div>
 
         <div class="contact-form-part">
-            <h2 class="section-active"><span>06/ </span> Contact</h2>
+            <h2 class="section-active"><span>03/ </span> Contact</h2>
             <h1>Get in touch</h1>
             <form id="contact-form">
                 <input name="name" id="name" type="text" placeholder="Name">
